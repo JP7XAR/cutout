@@ -10,8 +10,6 @@ config_ini=configparser.ConfigParser()
 inifile=sys.argv[1]
 config_ini.read(inifile, encoding="utf-8")
 
-print("a")
-
 #iniファイルから変数を読み込む
 pic_directory=config_ini["CUTOUT"]["pic_directory"] #空撮画像のディレクトリの位置
 box_volume=int(config_ini["CUTOUT"]["box_volume"]) #cutout時に書き込む箱の数
