@@ -12,7 +12,8 @@ ex1)
 python cutout.py cutout.ini
 
 ex2)
-python cutout.py C:/a/cutout_1.ini #パスの指定やファイル名の変更をしても動作可
+python cutout.py C:/a/cutout_1.ini 
+#パスの指定やファイル名の変更をしても動作可
 
 ソースコードの処理とiniファイルについてはコメントに書いてある通りです．
 詳しく知りたくなったらご自身で調べてください．
